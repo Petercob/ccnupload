@@ -1,7 +1,8 @@
 
 function selectAd() {
     var ads = [
-      ["bowlingad.svg", "Hollywood Bowl - Let the good times roll!", "http://www.hollywoodbowl.co.uk/"]
+      ["bowlingad.svg", "Hollywood Bowl - Let the good times roll!", "http://www.hollywoodbowl.co.uk/"],
+      ["gbkad.svg", "Gourmet Burger Kitchen - Just Good Food", "https://www.gbk.co.uk/"]
     ];
 
     var adid = Math.floor(Math.random() * ads.length);
