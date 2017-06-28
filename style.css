@@ -1,12 +1,15 @@
 #top {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
+    display: block;
+    margin-left: auto ;
+    margin-right: auto ;
+    width: 995;
+    height: 200;
 }
 
-#logo,#advert {
+#logo,#advert,#adlink {
     padding-left: 20px;
     padding-right: 20px;
+    height: inherit;
 }
 
 #menu {
