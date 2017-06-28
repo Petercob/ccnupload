@@ -1,0 +1,44 @@
+#top {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+#logo,#advert {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#menu {
+   list-style-type: none;
+   overflow: hidden;
+   background: #ff1a1a; /* For browsers that do not support gradients */
+   background: -webkit-linear-gradient(#ff4d4d,#ff1a1a,#ff4d4d); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(#ff4d4d,#ff1a1a,#ff4d4d); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(#ff4d4d,#ff1a1a,#ff4d4d); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(#ff4d4d,#ff1a1a,#ff4d4d); /* Standard syntax */
+   margin: 0;
+   margin-top: 10px;
+   padding: 0;
+}
+
+#menu li {
+   float: left;
+}
+
+#menu li :not(a) {
+   color: white;
+   padding: 14px 16px;
+   text-align: center;
+}
+
+#menu li a {
+   display: inline-block;
+   color: white;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+#menu li a:hover {
+   background-color: #ff4d4d;
+}
